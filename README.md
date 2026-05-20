@@ -39,4 +39,5 @@ petfinder/
 ```
 ---
 Observação
+
 Os dados são armazenados em memória enquanto o programa está aberto. Ao fechar, os cadastros feitos durante a sessão são perdidos.
