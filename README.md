@@ -13,6 +13,7 @@ pip install customtkinter
 ```
 ---
 Como rodar
+
 Dentro da pasta do projeto, execute:
 ```
 python main.py
