@@ -1,17 +1,11 @@
 # ARQUIVO: main.py
-# CONCEITOS: print, for, variáveis, acesso a dicionário
 # ============================================================
  
 import customtkinter as ctk
 from telas.inicio import criar_tela_inicio
 from dados.pets import pets
  
-# --- PRINT no terminal: mostra o estado inicial da lista ---
-# Equivale ao que você faria num programa sem interface gráfica:
-#
-#   print("=== PETFINDER INICIADO ===")
-#   for pet in pets:
-#       print(pet['nome'], "-", pet['status'], "-", pet['bairro'])
+
  
 print("=== PETFINDER INICIADO ===")
 print(f"Pets cadastrados no momento: {len(pets)}")

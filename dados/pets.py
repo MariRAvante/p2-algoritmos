@@ -8,19 +8,25 @@
 pets = [
 
     {
-        'nome':   'Mel',        # variável do tipo string
-        'tipo':   'Cachorro',
-        'icone':  '🐶',
-        'status': 'Perdido',
-        'bairro': 'Centro'
+        'nome':      'Mel',        # variável do tipo string
+        'tipo':      'Cachorro',
+        'icone':     '🐶',
+        'status':    'Perdido',
+        'bairro':    'Centro',
+        'cor':       'Caramelo',
+        'raca':      'Vira-lata',
+        'descricao': 'Sumiu perto da praça central. Muito dócil e usa coleira vermelha.'
     },
 
     {
-        'nome':   'Pipoca',
-        'tipo':   'Gato',
-        'icone':  '😺',
-        'status': 'Encontrado',
-        'bairro': 'Vila Nova'
+        'nome':      'Pipoca',
+        'tipo':      'Gato',
+        'icone':     '😺',
+        'status':    'Encontrado',
+        'bairro':    'Vila Nova',
+        'cor':       'Branco e Cinza',
+        'raca':      'Persa',
+        'descricao': 'Encontrado próximo ao mercado. Muito calmo e parece estar perdido.'
     }
 
     # Novos pets são adicionados com:  pets.append(novo_dicionario)
